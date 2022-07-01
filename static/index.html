@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlockFileExtension</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+    /* * {
+        font-size: 20px;
+        display: :table-cell;
+        vertical-align: middle;
+    }
+
+    .space {
+        margin-left: 20px;
+    } */
+    nav {
+        width: 150px;
+        float: left;
+    }
+
+    label {
+        display: inline-block;
+        width: 50px;
+        line-height: 30px;
+    }
+
+    section {
+        width: 500px;
+        text-align: left;
+        float: left;
+    }
+
+    nav,
+    section {
+        text-align: center;
+    }
+
+    nav,
+    section {
+        line-height: 40px;
+    }
+</style>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <Br>
+    <h1>⚫ 파일 확장자 차단</h1>
+    <hr>
+    <hr>
+
+    <nav>
+        <strong class="space">고정 확장자</strong><br>
+        <strong class="space" style="margin-top: 10px;">커스텀 확장자</strong>
+    </nav>
+
+    <section>
+        <label><input type="checkbox" value="bat"> bat</label>
+        <label><input type="checkbox" value="cmd" class="space"> cmd</label>
+        <label><input type="checkbox" value="com" class="space"> com</label>
+        <label><input type="checkbox" value="cpl" class="space"> cpl</label>
+        <label><input type="checkbox" value="exe" class="space"> exe</label>
+        <label><input type="checkbox" value="scr" class="space"> scr</label>
+        <label><input type="checkbox" value="js" class="space"> js</label>
+
+        <div>
+            <input type="text" placeholder="확장자 입력" maxlength="20" style="height: 30px;">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">+추가</button>
+        </div>
+
+        <textarea rows="7" , cols="40"></textarea>
+    </section>
+
+    <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </p>
+
+</body>
+
+</html>
