@@ -1,0 +1,27 @@
+{
+  "name": "block-file-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taekyunJason/Block-File-Extensions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taekyunJason/Block-File-Extensions/issues"
+  },
+  "homepage": "https://github.com/taekyunJason/Block-File-Extensions#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.18"
+  }
+}
